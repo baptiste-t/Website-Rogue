@@ -1,0 +1,141 @@
+/* BASE STYLES */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+    margin-left: 50px;
+}
+
+.full-width {
+    width: 1400px;
+}
+
+.half-width {
+    width: 600px;
+}
+
+.third-width {
+    width: 400px;
+}
+
+/* HEADER */
+
+header {
+    margin-top: 10px;
+}
+
+header .full-width {
+    display: flex;
+}
+
+header .half-width {
+    flex-grow: 1;
+    align-self: center;
+}
+
+nav {
+    text-align: right;
+}
+header h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+header span {
+    color: #77a466;
+}
+
+header ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #77a466;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#background {
+    max-width: 1400px;
+    height: 250px;
+    background-image: url("file:///D:/Skillcrush/Skillcrush_project_2_-_Rogue/img/beans.jpg");
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466;
+    margin: 20px 0 20px 0;
+    background-position: center;
+}
+/* ABOUT */
+
+#about h2 {
+    color: #77a466;
+    text-transform: uppercase;
+}
+#about p {
+    font-family: 'Lora', sans-serif;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+/* CONTAINER */
+
+.container {
+    display: flex;
+    width: 1400px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#menu {
+    padding-left: 20px;
+    width: 500px;
+    border-top: 2px solid ghostwhite;
+    border-bottom: 2px solid ghostwhite;
+}
+
+h3 {
+    font-variant: small-caps;
+}
+
+#menu p {
+    color: #77a466;
+    font-weight: bold;
+}
+
+#reviews {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 400px;
+    border: 2px solid ghostwhite;
+}
+
+#reviews p {
+    font-style: italic;
+}
+
+#locations {
+    padding-left: 20px;
+    width: 500px;
+    border-top: 2px solid ghostwhite;
+    border-bottom: 2px solid ghostwhite;
+}
+
+/* FOOTER */
+footer {
+    width: 1400px;
+}
+
+footer h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer span {
+    color: #77a466;
+    font-style: italic;
+}
